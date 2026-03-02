@@ -1,6 +1,6 @@
 ## [jhu-clsp/mmBERT-small](https://huggingface.co/jhu-clsp/mmBERT-small)
 
-**mmBERT** (Massively Multilingual BERT-base) is a text embedding model developed by **Johns Hopkins University** in 2025. It was trained on `3` trillion tokens across `1833` languages with novel annealed language learning. 
+**mmBERT** (Massively Multilingual BERT-base) is a text embedding model developed by **Johns Hopkins University** in 2025. It was trained on `3` trillion tokens across `1833` languages using novel  language learning techniques. 
 
 |`max_position_embeddings`|`hidden_size`|`num_hidden_layers`
 |-:|-:|-:|
