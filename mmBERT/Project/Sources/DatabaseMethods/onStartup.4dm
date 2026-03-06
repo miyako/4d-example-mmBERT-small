@@ -51,7 +51,7 @@ If (Not:C34($logFile.exists))
 End if 
 var $threads; $max_position_embeddings; $batch_size : Integer
 $threads:=System info:C1571.cpuThreads\2
-$max_position_embeddings:=512
+$max_position_embeddings:=8192
 $batch_size:=512  //could go up to max_position_embeddings
 
 $port:=8080
