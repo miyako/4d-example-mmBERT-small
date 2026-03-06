@@ -2,9 +2,9 @@
 
 **mmBERT** (Massively Multilingual BERT-base) is a text embedding model released by **Johns Hopkins University** in 2025. It was trained on `3` trillion tokens across `1833` languages using novel language learning techniques. 
 
-|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`
-|-:|-:|-:|
-|`8192`|`384`|`22`
+|`max_position_embeddings`|`hidden_size`|`num_hidden_layers`|`pooling`
+|-:|-:|-:|-:|
+|`8192`|`384`|`22`|`mean`
 
 ```4d
 var $en; $fr : 4D.Vector
