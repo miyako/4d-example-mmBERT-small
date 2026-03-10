@@ -12,6 +12,14 @@ $fr:=$batch.embeddings[0].embedding
 $en:=$batch.embeddings[1].embedding
 
 $cosineSimilarity:=$en.cosineSimilarity($fr)
-//0.87504260247784
+//0.83528909540198
+
+ALERT:C41([$cosineSimilarity].join())
+
+$en:=$AIClient.embeddings.create("How do I reset my password?").embedding.embedding
+$fr:=$AIClient.embeddings.create("Comment réinitialiser mon mot de passe?").embedding.embedding
+
+$cosineSimilarity:=$en.cosineSimilarity($fr)
+//0.84971150353057
 
 ALERT:C41([$cosineSimilarity].join())
